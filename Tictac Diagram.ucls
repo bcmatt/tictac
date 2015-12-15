@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="Controller" project="Tictacproj" file="/Tictacproj/Controller.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="269" y="225"/>    
+    <position height="-1" width="-1" x="277" y="224"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="Tictacmain" project="Tictacproj" file="/Tictacproj/Tictacmain.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="100" width="113" x="215" y="55"/>    
+    <position height="100" width="113" x="226" y="47"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="Tictacboard" project="Tictacproj" file="/Tictacproj/Tictacboard.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="606" y="510"/>    
+    <position height="-1" width="-1" x="273" y="523"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,8 +30,8 @@
   </class>  
   <class id="4" language="java" name="Exitreset" project="Tictacproj" file="/Tictacproj/Exitreset.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="270" y="513"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="153" width="235" x="478" y="157"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="Arrays" project="Tictacproj" file="/Tictacproj/Arrays.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="974" y="431"/>    
+    <position height="-1" width="-1" x="-8" y="514"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -49,10 +49,10 @@
   <association id="6">    
     <end type="SOURCE" refId="3" navigable="false">      
       <attribute id="7" name="GArray">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-982" y="83"/>      
       </attribute>      
       <multiplicity id="8" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
+        <position height="0" width="0" x="-982" y="83"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
@@ -61,37 +61,13 @@
   <association id="9">    
     <end type="SOURCE" refId="1" navigable="false">      
       <attribute id="10" name="XOButtons">        
-        <position height="0" width="0" x="11" y="26"/>      
+        <position height="0" width="0" x="299" y="-254"/>      
       </attribute>      
       <multiplicity id="11" minimum="0" maximum="1">        
-        <position height="0" width="0" x="11" y="26"/>      
+        <position height="0" width="0" x="299" y="-254"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="12">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="13" name="Brd">        
-        <position height="0" width="0" x="22" y="-9"/>      
-      </attribute>      
-      <multiplicity id="14" minimum="0" maximum="1">        
-        <position height="0" width="0" x="22" y="-9"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="15">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="16" name="Brd">        
-        <position height="0" width="0" x="22" y="-9"/>      
-      </attribute>      
-      <multiplicity id="17" minimum="0" maximum="1">        
-        <position height="0" width="0" x="22" y="-9"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
